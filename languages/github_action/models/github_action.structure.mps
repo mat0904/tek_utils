@@ -555,8 +555,78 @@
   <node concept="1TIwiD" id="3RvjVZ$JpTE">
     <property role="EcuMT" value="4458369841715060330" />
     <property role="3GE5qa" value="trigger.trigger_event" />
-    <property role="TrG5h" value="public" />
+    <property role="TrG5h" value="public_" />
+    <property role="34LRSv" value="public" />
     <ref role="1TJDcQ" node="bwhBsKYHTY" resolve="trigger_event" />
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$LBqR">
+    <property role="EcuMT" value="4458369841715639991" />
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <property role="TrG5h" value="pull_request" />
+    <ref role="1TJDcQ" node="bwhBsKYHTY" resolve="trigger_event" />
+    <node concept="1TJgyj" id="3RvjVZ$LBqT" role="1TKVEi">
+      <property role="IQ2ns" value="4458369841715639993" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="types" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="bwhBsKYHU7" resolve="activity_types" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$LFuk">
+    <property role="EcuMT" value="4458369841715656596" />
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <property role="TrG5h" value="synchronize_type" />
+    <property role="34LRSv" value="synchronize" />
+    <property role="R4oN_" value="synchronize" />
+    <ref role="1TJDcQ" node="bwhBsKYHU7" resolve="activity_types" />
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$LFuA">
+    <property role="EcuMT" value="4458369841715656614" />
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <property role="TrG5h" value="converted_to_draft_type" />
+    <property role="R4oN_" value="converted_to_draft" />
+    <property role="34LRSv" value="converted_to_draft" />
+    <ref role="1TJDcQ" node="bwhBsKYHU7" resolve="activity_types" />
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$LFuU">
+    <property role="EcuMT" value="4458369841715656634" />
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <property role="TrG5h" value="ready_for_review_type" />
+    <property role="34LRSv" value="ready_for_review" />
+    <property role="R4oN_" value="ready_for_review" />
+    <ref role="1TJDcQ" node="bwhBsKYHU7" resolve="activity_types" />
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$LFvd">
+    <property role="EcuMT" value="4458369841715656653" />
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <property role="TrG5h" value="review_requested_type" />
+    <property role="34LRSv" value="review_requested" />
+    <property role="R4oN_" value="review_requested" />
+    <ref role="1TJDcQ" node="bwhBsKYHU7" resolve="activity_types" />
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$LFvu">
+    <property role="EcuMT" value="4458369841715656670" />
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <property role="TrG5h" value="review_request_removed_type" />
+    <property role="34LRSv" value="review_request_removed" />
+    <property role="R4oN_" value="review_request_removed" />
+    <ref role="1TJDcQ" node="bwhBsKYHU7" resolve="activity_types" />
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$LFvI">
+    <property role="EcuMT" value="4458369841715656686" />
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <property role="TrG5h" value="auto_merge_enabled_type" />
+    <property role="34LRSv" value="auto_merge_enabled" />
+    <property role="R4oN_" value="auto_merge_enabled" />
+    <ref role="1TJDcQ" node="bwhBsKYHU7" resolve="activity_types" />
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$LFvZ">
+    <property role="EcuMT" value="4458369841715656703" />
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <property role="TrG5h" value="auto_merge_disabled_type" />
+    <property role="34LRSv" value="auto_merge_disabled" />
+    <property role="R4oN_" value="auto_merge_disabled" />
+    <ref role="1TJDcQ" node="bwhBsKYHU7" resolve="activity_types" />
   </node>
 </model>
 

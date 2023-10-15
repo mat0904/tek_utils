@@ -920,7 +920,7 @@
   </node>
   <node concept="24kQdi" id="3RvjVZ$JpTG">
     <property role="3GE5qa" value="trigger.trigger_event" />
-    <ref role="1XX52x" to="3ixw:3RvjVZ$JpTE" resolve="public" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$JpTE" resolve="public_" />
     <node concept="3EZMnI" id="3RvjVZ$JpTI" role="2wV5jI">
       <node concept="3F0ifn" id="3RvjVZ$JpTP" role="3EZMnx">
         <property role="3F0ifm" value="public" />
@@ -932,6 +932,110 @@
       <node concept="3F0ifn" id="3RvjVZ$JpTY" role="3EZMnx">
         <property role="3F0ifm" value="Runs your workflow when your workflow's repository changes from private to public." />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$LBqW">
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$LBqR" resolve="pull_request" />
+    <node concept="3EZMnI" id="3RvjVZ$LBqY" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$LBqZ" role="3EZMnx">
+        <property role="3F0ifm" value="pull_request" />
+        <node concept="ljvvj" id="3RvjVZ$LBr0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3RvjVZ$LBr1" role="3EZMnx" />
+      <node concept="3F0ifn" id="3RvjVZ$LBr2" role="3EZMnx">
+        <property role="3F0ifm" value="types:" />
+      </node>
+      <node concept="3F0ifn" id="3RvjVZ$LBr3" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F2HdR" id="3RvjVZ$LBr4" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="3ixw:3RvjVZ$LBqT" resolve="types" />
+        <node concept="l2Vlx" id="3RvjVZ$LBr5" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="3RvjVZ$LBr6" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$LBr7" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="3RvjVZ$LMsr" role="6VMZX">
+      <node concept="l2Vlx" id="3RvjVZ$LMss" role="2iSdaV" />
+      <node concept="3F0ifn" id="3RvjVZ$LMsv" role="3EZMnx">
+        <property role="3F0ifm" value="Runs your workflow when activity on a pull request in the workflow's repository occurs. For example, if no activity types are specified, the workflow runs when a pull request is opened or reopened or when the head branch of the pull request is updated. For activity related to pull request reviews, pull request review comments, or pull request comments, use the pull_request_review, pull_request_review_comment, or issue_comment events instead. " />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$LFup">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$LFuk" resolve="synchronize_type" />
+    <node concept="3EZMnI" id="3RvjVZ$LFur" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$LFuy" role="3EZMnx">
+        <property role="3F0ifm" value="synchronize" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$LFuu" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$LFuE">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$LFuA" resolve="converted_to_draft_type" />
+    <node concept="3EZMnI" id="3RvjVZ$LFuG" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$LFuN" role="3EZMnx">
+        <property role="3F0ifm" value="converted_to_draft" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$LFuJ" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$LFv0">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$LFuU" resolve="ready_for_review_type" />
+    <node concept="3EZMnI" id="3RvjVZ$LFv2" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$LFv9" role="3EZMnx">
+        <property role="3F0ifm" value="ready_for_review" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$LFv5" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$LFvh">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$LFvd" resolve="review_requested_type" />
+    <node concept="3EZMnI" id="3RvjVZ$LFvj" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$LFvq" role="3EZMnx">
+        <property role="3F0ifm" value="review_requested" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$LFvm" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$LFvw">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$LFvu" resolve="review_request_removed_type" />
+    <node concept="3EZMnI" id="3RvjVZ$LFvy" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$LFvE" role="3EZMnx">
+        <property role="3F0ifm" value="review_request_removed" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$LFv_" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$LFvL">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$LFvI" resolve="auto_merge_enabled_type" />
+    <node concept="3EZMnI" id="3RvjVZ$LFvN" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$LFvV" role="3EZMnx">
+        <property role="3F0ifm" value="auto_merge_enabled" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$LFvQ" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$LFw2">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$LFvZ" resolve="auto_merge_disabled_type" />
+    <node concept="3EZMnI" id="3RvjVZ$LFw4" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$LFwc" role="3EZMnx">
+        <property role="3F0ifm" value="auto_merge_disabled" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$LFw7" role="2iSdaV" />
     </node>
   </node>
 </model>
