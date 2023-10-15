@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/dockerfile/dockerfile.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/github_action/github_action.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/sandbox/sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/tek_utils.build/tek_utils.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/tek_utils.main_build/tek_utils.main_build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/tek_utils.sandbox/tek_utils.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+FROM 30mat09/mps:latest
+
+WORKDIR /project
+
+ENV MPS_HOME "/mps/MPS-extensions/build/mps"
+ENV ITEMIS "/mps/MPS-extensions/artifacts/de.itemis.mps.extensions"
+
+COPY . .
+
+RUN ant -f mainBuild.xml -Dmps_home=${MPS_HOME} -Ditemis=${ITEMIS} generate && \
+    ant -f build.xml -Dmps_home=${MPS_HOME} -Ditemis=${ITEMIS} generate build && \
+    ant -f buildDistribution.xml -Dmps_home=${MPS_HOME} -Ditemis=${ITEMIS}
