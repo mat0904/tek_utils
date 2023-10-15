@@ -677,5 +677,125 @@
       <ref role="20lvS9" node="3RvjVZ$MbsM" resolve="pattern" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3RvjVZ$Q7tB">
+    <property role="EcuMT" value="4458369841716819815" />
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <property role="TrG5h" value="pull_request_review" />
+    <ref role="1TJDcQ" node="bwhBsKYHTY" resolve="trigger_event" />
+    <node concept="1TJgyj" id="3RvjVZ$Q7tG" role="1TKVEi">
+      <property role="IQ2ns" value="4458369841716819820" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="types" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="bwhBsKYHU7" resolve="activity_types" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$Q9TC">
+    <property role="EcuMT" value="4458369841716829800" />
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <property role="TrG5h" value="submitted_type" />
+    <property role="34LRSv" value="submitted" />
+    <property role="R4oN_" value="submitted" />
+    <ref role="1TJDcQ" node="bwhBsKYHU7" resolve="activity_types" />
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$Q9TT">
+    <property role="EcuMT" value="4458369841716829817" />
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <property role="TrG5h" value="dismissed_type" />
+    <property role="34LRSv" value="dismissed" />
+    <property role="R4oN_" value="dismissed" />
+    <ref role="1TJDcQ" node="bwhBsKYHU7" resolve="activity_types" />
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$Q_Ip">
+    <property role="EcuMT" value="4458369841716943769" />
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <property role="TrG5h" value="pull_request_review_comment" />
+    <ref role="1TJDcQ" node="bwhBsKYHTY" resolve="trigger_event" />
+    <node concept="1TJgyj" id="3RvjVZ$Q_Iv" role="1TKVEi">
+      <property role="IQ2ns" value="4458369841716943775" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="types" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="bwhBsKYHU7" resolve="activity_types" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$R1kx">
+    <property role="EcuMT" value="4458369841717056801" />
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <property role="TrG5h" value="pull_request_target" />
+    <ref role="1TJDcQ" node="bwhBsKYHTY" resolve="trigger_event" />
+    <node concept="1TJgyj" id="3$aSUaExXq9" role="1TKVEi">
+      <property role="IQ2ns" value="4110347897714235017" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="types" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="bwhBsKYHU7" resolve="activity_types" />
+    </node>
+    <node concept="1TJgyj" id="3$aSUaExXqa" role="1TKVEi">
+      <property role="IQ2ns" value="4110347897714235018" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="branches" />
+      <ref role="20lvS9" node="3RvjVZ$MbnE" resolve="branches" />
+    </node>
+    <node concept="1TJgyj" id="3$aSUaExXqb" role="1TKVEi">
+      <property role="IQ2ns" value="4110347897714235019" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="paths" />
+      <ref role="20lvS9" node="3RvjVZ$P34d" resolve="paths" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3$aSUaEyPTY">
+    <property role="EcuMT" value="4110347897714466430" />
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <property role="TrG5h" value="push" />
+    <ref role="1TJDcQ" node="bwhBsKYHTY" resolve="trigger_event" />
+    <node concept="1TJgyj" id="3$aSUaEyRr7" role="1TKVEi">
+      <property role="IQ2ns" value="4110347897714472647" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="branches" />
+      <ref role="20lvS9" node="3RvjVZ$MbnE" resolve="branches" />
+    </node>
+    <node concept="1TJgyj" id="3$aSUaEyRr8" role="1TKVEi">
+      <property role="IQ2ns" value="4110347897714472648" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="paths" />
+      <ref role="20lvS9" node="3RvjVZ$P34d" resolve="paths" />
+    </node>
+    <node concept="1TJgyj" id="3$aSUaEzdEk" role="1TKVEi">
+      <property role="IQ2ns" value="4110347897714563732" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="tags" />
+      <ref role="20lvS9" node="3$aSUaEz1Q_" resolve="tags" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3$aSUaEz1Q_">
+    <property role="EcuMT" value="4110347897714515365" />
+    <property role="3GE5qa" value="trigger.trigger_event.tags" />
+    <property role="TrG5h" value="tags" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3$aSUaEz1QH" role="1TKVEi">
+      <property role="IQ2ns" value="4110347897714515373" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="tags" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="3$aSUaEz1QF" resolve="tag" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3$aSUaEz1QF">
+    <property role="EcuMT" value="4110347897714515371" />
+    <property role="3GE5qa" value="trigger.trigger_event.tags" />
+    <property role="TrG5h" value="tag" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="3$aSUaEz1R9" role="1TKVEl">
+      <property role="IQ2nx" value="4110347897714515401" />
+      <property role="TrG5h" value="major_pattern" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="3$aSUaEz1Rb" role="1TKVEl">
+      <property role="IQ2nx" value="4110347897714515403" />
+      <property role="TrG5h" value="minor_pattern" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

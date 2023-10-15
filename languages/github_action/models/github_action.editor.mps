@@ -1111,5 +1111,199 @@
       <node concept="l2Vlx" id="3RvjVZ$P34_" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="3RvjVZ$Q7tJ">
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$Q7tB" resolve="pull_request_review" />
+    <node concept="3EZMnI" id="3RvjVZ$Q7tU" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$Q7tV" role="3EZMnx">
+        <property role="3F0ifm" value="pull_request_review" />
+        <node concept="ljvvj" id="3RvjVZ$Q7tW" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3RvjVZ$Q7tX" role="3EZMnx" />
+      <node concept="3F0ifn" id="3RvjVZ$Q7tY" role="3EZMnx">
+        <property role="3F0ifm" value="types:" />
+      </node>
+      <node concept="3F0ifn" id="3RvjVZ$Q7tZ" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F2HdR" id="3RvjVZ$Q7u0" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="3ixw:3RvjVZ$Q7tG" resolve="types" />
+        <node concept="l2Vlx" id="3RvjVZ$Q7u1" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="3RvjVZ$Q7u2" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$Q7u3" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="3RvjVZ$Q7um" role="6VMZX">
+      <node concept="l2Vlx" id="3RvjVZ$Q7un" role="2iSdaV" />
+      <node concept="3F0ifn" id="3RvjVZ$Q7ur" role="3EZMnx">
+        <property role="3F0ifm" value="Runs your workflow when a pull request review is submitted, edited, or dismissed. A pull request review is a group of pull request review comments in addition to a body comment and a state. For activity related to pull request review comments or pull request comments, use the pull_request_review_comment or issue_comment events instead" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$Q9TG">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$Q9TC" resolve="submitted_type" />
+    <node concept="3EZMnI" id="3RvjVZ$Q9TI" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$Q9TP" role="3EZMnx">
+        <property role="3F0ifm" value="submitted" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$Q9TL" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$Q9TW">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$Q9TT" resolve="dismissed_type" />
+    <node concept="3EZMnI" id="3RvjVZ$Q9TY" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$Q9U5" role="3EZMnx">
+        <property role="3F0ifm" value="dismissed" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$Q9U1" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$Q_Iz">
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$Q_Ip" resolve="pull_request_review_comment" />
+    <node concept="3EZMnI" id="3RvjVZ$Q_IJ" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$Q_IK" role="3EZMnx">
+        <property role="3F0ifm" value="pull_request_review_comment" />
+        <node concept="ljvvj" id="3RvjVZ$Q_IL" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3RvjVZ$Q_IM" role="3EZMnx" />
+      <node concept="3F0ifn" id="3RvjVZ$Q_IN" role="3EZMnx">
+        <property role="3F0ifm" value="types:" />
+      </node>
+      <node concept="3F0ifn" id="3RvjVZ$Q_IO" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F2HdR" id="3RvjVZ$Q_IP" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="3ixw:3RvjVZ$Q_Iv" resolve="types" />
+        <node concept="l2Vlx" id="3RvjVZ$Q_IQ" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="3RvjVZ$Q_IR" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$Q_IS" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$R1Bm">
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$R1kx" resolve="pull_request_target" />
+    <node concept="3EZMnI" id="3$aSUaExXqg" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaExXqh" role="3EZMnx">
+        <property role="3F0ifm" value="pull_request_target" />
+        <node concept="ljvvj" id="3$aSUaExXqi" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3$aSUaExXqj" role="3EZMnx" />
+      <node concept="3F0ifn" id="3$aSUaExXqk" role="3EZMnx">
+        <property role="3F0ifm" value="types:" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaExXql" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F2HdR" id="3$aSUaExXqm" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="3ixw:3$aSUaExXq9" resolve="types" />
+        <node concept="l2Vlx" id="3$aSUaExXqn" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaExXqo" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <node concept="ljvvj" id="3$aSUaExXqp" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3$aSUaExXqq" role="3EZMnx" />
+      <node concept="3F1sOY" id="3$aSUaExXqr" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3$aSUaExXqa" resolve="branches" />
+        <node concept="ljvvj" id="3$aSUaExXqs" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3$aSUaExXqt" role="3EZMnx" />
+      <node concept="3F1sOY" id="3$aSUaExXqu" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3$aSUaExXqb" resolve="paths" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaExXqv" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaEyRrc">
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <ref role="1XX52x" to="3ixw:3$aSUaEyPTY" resolve="push" />
+    <node concept="3EZMnI" id="3$aSUaEyRre" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaEyRrf" role="3EZMnx">
+        <property role="3F0ifm" value="push" />
+        <node concept="ljvvj" id="3$aSUaEyRrg" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3$aSUaEyRro" role="3EZMnx" />
+      <node concept="3F1sOY" id="3$aSUaEyRrp" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3$aSUaEyRr7" resolve="branches" />
+        <node concept="ljvvj" id="3$aSUaEyRrq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3$aSUaEyRrr" role="3EZMnx" />
+      <node concept="3F1sOY" id="3$aSUaEyRrs" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3$aSUaEyRr8" resolve="paths" />
+        <node concept="ljvvj" id="3$aSUaEzdED" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3$aSUaEzdEP" role="3EZMnx" />
+      <node concept="3F1sOY" id="3$aSUaEzdFb" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3$aSUaEzdEk" resolve="tags" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaEyRrt" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaEz1QK">
+    <property role="3GE5qa" value="trigger.trigger_event.tags" />
+    <ref role="1XX52x" to="3ixw:3$aSUaEz1Q_" resolve="tags" />
+    <node concept="3EZMnI" id="3$aSUaEz1QN" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaEz1QO" role="3EZMnx">
+        <property role="3F0ifm" value="tags" />
+        <node concept="ljvvj" id="3$aSUaEz1QP" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3$aSUaEz1QQ" role="3EZMnx" />
+      <node concept="3XFhqQ" id="3$aSUaEz1QR" role="3EZMnx" />
+      <node concept="3F2HdR" id="3$aSUaEz1QS" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3$aSUaEz1QH" resolve="tags" />
+        <node concept="2iRkQZ" id="3$aSUaEz1QT" role="2czzBx" />
+        <node concept="VPM3Z" id="3$aSUaEz1QU" role="3F10Kt" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaEz1QV" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaEz1Rf">
+    <property role="3GE5qa" value="trigger.trigger_event.tags" />
+    <ref role="1XX52x" to="3ixw:3$aSUaEz1QF" resolve="tag" />
+    <node concept="3EZMnI" id="3$aSUaEz1Rh" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaEz1Ro" role="3EZMnx">
+        <property role="3F0ifm" value="v" />
+      </node>
+      <node concept="3F0A7n" id="3$aSUaEz1Ru" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3$aSUaEz1R9" resolve="major_pattern" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaEz1RA" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+      </node>
+      <node concept="3F0A7n" id="3$aSUaEz1RK" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3$aSUaEz1Rb" resolve="minor_pattern" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaEz1Rk" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
