@@ -769,6 +769,12 @@
       </node>
       <node concept="l2Vlx" id="3RvjVZ$IG0O" role="2iSdaV" />
     </node>
+    <node concept="3EZMnI" id="3$aSUaE_zea" role="6VMZX">
+      <node concept="l2Vlx" id="3$aSUaE_zeb" role="2iSdaV" />
+      <node concept="3F0ifn" id="3$aSUaE_zee" role="3EZMnx">
+        <property role="3F0ifm" value="Runs your workflow when a milestone in the workflow's repository is created or modified." />
+      </node>
+    </node>
   </node>
   <node concept="24kQdi" id="3RvjVZ$Jg_n">
     <property role="3GE5qa" value="trigger.trigger_event" />
@@ -1265,6 +1271,12 @@
       </node>
       <node concept="l2Vlx" id="3$aSUaEyRrt" role="2iSdaV" />
     </node>
+    <node concept="3EZMnI" id="3$aSUaEzE0$" role="6VMZX">
+      <node concept="3F0ifn" id="3$aSUaEzE0F" role="3EZMnx">
+        <property role="3F0ifm" value="Runs your workflow when you push a commit or tag, or when you create a repository from a template." />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaEzE0B" role="2iSdaV" />
+    </node>
   </node>
   <node concept="24kQdi" id="3$aSUaEz1QK">
     <property role="3GE5qa" value="trigger.trigger_event.tags" />
@@ -1303,6 +1315,310 @@
         <ref role="1NtTu8" to="3ixw:3$aSUaEz1Rb" resolve="minor_pattern" />
       </node>
       <node concept="l2Vlx" id="3$aSUaEz1Rk" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaEzADX">
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <ref role="1XX52x" to="3ixw:3$aSUaEz_r0" resolve="registry_package" />
+    <node concept="3EZMnI" id="3$aSUaEzADZ" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaEzAE0" role="3EZMnx">
+        <property role="3F0ifm" value="registry_package" />
+        <node concept="ljvvj" id="3$aSUaEzAE1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3$aSUaEzAE2" role="3EZMnx" />
+      <node concept="3F0ifn" id="3$aSUaEzAE3" role="3EZMnx">
+        <property role="3F0ifm" value="types:" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaEzAE4" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F2HdR" id="3$aSUaEzAE5" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="3ixw:3$aSUaEz_r2" resolve="types" />
+        <node concept="l2Vlx" id="3$aSUaEzAE6" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaEzAE7" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaEzAE8" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="3$aSUaEzE0r" role="6VMZX">
+      <node concept="l2Vlx" id="3$aSUaEzE0s" role="2iSdaV" />
+      <node concept="3F0ifn" id="3$aSUaEzE0v" role="3EZMnx">
+        <property role="3F0ifm" value="Runs your workflow when activity related to GitHub Packages occurs in your repository." />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaEzDGH">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3$aSUaEzDGE" resolve="published_type" />
+    <node concept="3EZMnI" id="3$aSUaEzDGJ" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaEzDGQ" role="3EZMnx">
+        <property role="3F0ifm" value="published" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaEzDGM" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaE$cbg">
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <ref role="1XX52x" to="3ixw:3$aSUaE$c6F" resolve="release" />
+    <node concept="3EZMnI" id="3$aSUaE$cbi" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaE$cbj" role="3EZMnx">
+        <property role="3F0ifm" value="release" />
+        <node concept="ljvvj" id="3$aSUaE$cbk" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3$aSUaE$cbl" role="3EZMnx" />
+      <node concept="3F0ifn" id="3$aSUaE$cbm" role="3EZMnx">
+        <property role="3F0ifm" value="types:" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaE$cbn" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F2HdR" id="3$aSUaE$cbo" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="3ixw:3$aSUaE$cbd" resolve="types" />
+        <node concept="l2Vlx" id="3$aSUaE$cbp" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaE$cbq" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaE$cbr" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="3$aSUaE$cbC" role="6VMZX">
+      <node concept="l2Vlx" id="3$aSUaE$cbD" role="2iSdaV" />
+      <node concept="3F0ifn" id="3$aSUaE$cbG" role="3EZMnx">
+        <property role="3F0ifm" value="Runs your workflow when release activity in your repository occurs." />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaE$eUs">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3$aSUaE$eUq" resolve="unpublished_type" />
+    <node concept="3EZMnI" id="3$aSUaE$eUu" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaE$eU_" role="3EZMnx">
+        <property role="3F0ifm" value="unpublished" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaE$eUx" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaE$gLq">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3$aSUaE$gLn" resolve="prereleased_type" />
+    <node concept="3EZMnI" id="3$aSUaE$gLs" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaE$gLz" role="3EZMnx">
+        <property role="3F0ifm" value="preleased" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaE$gLv" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaE$hmU">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3$aSUaE$hmS" resolve="released_type" />
+    <node concept="3EZMnI" id="3$aSUaE$hmW" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaE$hn3" role="3EZMnx">
+        <property role="3F0ifm" value="released" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaE$hmZ" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaE$OnX">
+    <property role="3GE5qa" value="trigger.trigger_event.cron" />
+    <ref role="1XX52x" to="3ixw:3$aSUaE$OnQ" resolve="cron" />
+    <node concept="3EZMnI" id="3$aSUaE$OnZ" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaE$Oof" role="3EZMnx">
+        <property role="3F0ifm" value="-" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaE$Ool" role="3EZMnx">
+        <property role="3F0ifm" value="cron:" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaE$OoJ" role="3EZMnx">
+        <property role="3F0ifm" value="'" />
+      </node>
+      <node concept="3F0A7n" id="3$aSUaE$Oot" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3$aSUaE$OnU" resolve="pattern" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaE$OoV" role="3EZMnx">
+        <property role="3F0ifm" value="'" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaE$Oo2" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaE$Op6">
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <ref role="1XX52x" to="3ixw:3$aSUaE$OnN" resolve="schedule" />
+    <node concept="3EZMnI" id="3$aSUaE$PGy" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaE$PGz" role="3EZMnx">
+        <property role="3F0ifm" value="schedule" />
+        <node concept="ljvvj" id="3$aSUaE$PG$" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3$aSUaE$PG_" role="3EZMnx" />
+      <node concept="3F2HdR" id="3$aSUaE$PHm" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3$aSUaE$Op3" resolve="crons" />
+        <node concept="2iRkQZ" id="3$aSUaE$PHp" role="2czzBx" />
+        <node concept="VPM3Z" id="3$aSUaE$PHq" role="3F10Kt" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaE$PGF" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="3$aSUaE_aak" role="6VMZX">
+      <node concept="l2Vlx" id="3$aSUaE_aal" role="2iSdaV" />
+      <node concept="3F0ifn" id="3$aSUaE_aap" role="3EZMnx">
+        <property role="3F0ifm" value="The schedule event allows you to trigger a workflow at a scheduled time." />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaE_lwr">
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <ref role="1XX52x" to="3ixw:3$aSUaE_lwp" resolve="status" />
+    <node concept="3EZMnI" id="3$aSUaE_lxk" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaE_lxl" role="3EZMnx">
+        <property role="3F0ifm" value="status" />
+        <node concept="ljvvj" id="3$aSUaE_lxm" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3$aSUaE_lxt" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="3$aSUaE_ly0" role="6VMZX">
+      <node concept="l2Vlx" id="3$aSUaE_ly1" role="2iSdaV" />
+      <node concept="3F0ifn" id="3$aSUaE_ly4" role="3EZMnx">
+        <property role="3F0ifm" value="Runs your workflow when the status of a Git commit changes." />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaE_zem">
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <ref role="1XX52x" to="3ixw:3$aSUaE_zeh" resolve="watch" />
+    <node concept="3EZMnI" id="3$aSUaE_zeo" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaE_zep" role="3EZMnx">
+        <property role="3F0ifm" value="watch" />
+        <node concept="ljvvj" id="3$aSUaE_zeq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3$aSUaE_zer" role="3EZMnx" />
+      <node concept="3F0ifn" id="3$aSUaE_zes" role="3EZMnx">
+        <property role="3F0ifm" value="types:" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaE_zet" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F2HdR" id="3$aSUaE_zeu" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="3ixw:3$aSUaE_zej" resolve="types" />
+        <node concept="l2Vlx" id="3$aSUaE_zev" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaE_zew" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaE_zex" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="3$aSUaEAah2" role="6VMZX">
+      <node concept="l2Vlx" id="3$aSUaEAah3" role="2iSdaV" />
+      <node concept="3F0ifn" id="3$aSUaEAah6" role="3EZMnx">
+        <property role="3F0ifm" value="Runs your workflow when the workflow's repository is starred." />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaE_$zp">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3$aSUaE_$zn" resolve="started_type" />
+    <node concept="3EZMnI" id="3$aSUaE_$zr" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaE_$zy" role="3EZMnx">
+        <property role="3F0ifm" value="started" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaE_$zu" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaEA913">
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <ref role="1XX52x" to="3ixw:3$aSUaEA90Z" resolve="workflow_call" />
+    <node concept="3EZMnI" id="3$aSUaEAagq" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaEAagr" role="3EZMnx">
+        <property role="3F0ifm" value="workflow_call" />
+        <node concept="ljvvj" id="3$aSUaEAags" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3$aSUaEAagz" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="3$aSUaEAah9" role="6VMZX">
+      <node concept="l2Vlx" id="3$aSUaEAaha" role="2iSdaV" />
+      <node concept="3F0ifn" id="3$aSUaEAahd" role="3EZMnx">
+        <property role="3F0ifm" value="workflow_call is used to indicate that a workflow can be called by another workflow. When a workflow is triggered with the workflow_call event, the event payload in the called workflow is the same event payload from the calling workflow." />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaEAahi">
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <ref role="1XX52x" to="3ixw:3$aSUaEAahg" resolve="workflow_dispatch" />
+    <node concept="3EZMnI" id="3$aSUaEAahk" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaEAahl" role="3EZMnx">
+        <property role="3F0ifm" value="workflow_dispatch" />
+        <node concept="ljvvj" id="3$aSUaEAahm" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3$aSUaEAahn" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="3$aSUaEAaht" role="6VMZX">
+      <node concept="l2Vlx" id="3$aSUaEAahu" role="2iSdaV" />
+      <node concept="3F0ifn" id="3$aSUaEAahx" role="3EZMnx">
+        <property role="3F0ifm" value="To enable a workflow to be triggered manually, you need to configure the workflow_dispatch event." />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaEAahD">
+    <property role="3GE5qa" value="trigger.trigger_event" />
+    <ref role="1XX52x" to="3ixw:3$aSUaEAah$" resolve="workflow_run" />
+    <node concept="3EZMnI" id="3$aSUaEAahF" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaEAahG" role="3EZMnx">
+        <property role="3F0ifm" value="workflow_run" />
+        <node concept="ljvvj" id="3$aSUaEAahH" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3$aSUaEAahI" role="3EZMnx" />
+      <node concept="3F0ifn" id="3$aSUaEAahJ" role="3EZMnx">
+        <property role="3F0ifm" value="types:" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaEAahK" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F2HdR" id="3$aSUaEAahL" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="3ixw:3$aSUaEAahA" resolve="types" />
+        <node concept="l2Vlx" id="3$aSUaEAahM" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="3$aSUaEAahN" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaEAahO" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaEAc5U">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3$aSUaEAc5R" resolve="requested_type" />
+    <node concept="3EZMnI" id="3$aSUaEAc5W" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaEAc63" role="3EZMnx">
+        <property role="3F0ifm" value="requested" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaEAc5Z" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3$aSUaEAM5z">
+    <property role="3GE5qa" value="trigger.trigger_event.types" />
+    <ref role="1XX52x" to="3ixw:3$aSUaEAM5x" resolve="in_progress_type" />
+    <node concept="3EZMnI" id="3$aSUaEAM5C" role="2wV5jI">
+      <node concept="3F0ifn" id="3$aSUaEAM5E" role="3EZMnx">
+        <property role="3F0ifm" value="in progress" />
+      </node>
+      <node concept="l2Vlx" id="3$aSUaEAM5F" role="2iSdaV" />
     </node>
   </node>
 </model>
