@@ -23,9 +23,13 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
         <property id="241647608299431129" name="propertyId" index="IQ2nx" />
@@ -67,6 +71,13 @@
       <property role="20kJfa" value="environment" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7$2YR3mBDBl" resolve="environment" />
+    </node>
+    <node concept="1TJgyj" id="3kXgTRY3hCd" role="1TKVEi">
+      <property role="IQ2ns" value="3836296803440728589" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="jobs" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3kXgTRY3hCa" resolve="jobs" />
     </node>
     <node concept="1TJgyi" id="7$2YR3mBCv4" role="1TKVEl">
       <property role="IQ2nx" value="8719808290598324164" />
@@ -493,7 +504,7 @@
     <property role="EcuMT" value="4458369841715022164" />
     <property role="3GE5qa" value="trigger.trigger_event" />
     <property role="TrG5h" value="page_build" />
-    <ref role="1TJDcQ" node="bwhBsKYHU7" resolve="activity_types" />
+    <ref role="1TJDcQ" node="bwhBsKYHTY" resolve="trigger_event" />
   </node>
   <node concept="1TIwiD" id="3RvjVZ$Jg_H">
     <property role="EcuMT" value="4458369841715022189" />
@@ -964,6 +975,52 @@
     <property role="34LRSv" value="in progress" />
     <property role="R4oN_" value="in progress" />
     <ref role="1TJDcQ" node="bwhBsKYHU7" resolve="activity_types" />
+  </node>
+  <node concept="1TIwiD" id="3kXgTRY3hCa">
+    <property role="EcuMT" value="3836296803440728586" />
+    <property role="TrG5h" value="jobs" />
+    <property role="3GE5qa" value="jobs" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3kXgTRY3hCk" role="1TKVEi">
+      <property role="IQ2ns" value="3836296803440728596" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="jobs" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3kXgTRY3hCi" resolve="job" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3kXgTRY3hCi">
+    <property role="EcuMT" value="3836296803440728594" />
+    <property role="3GE5qa" value="jobs" />
+    <property role="TrG5h" value="job" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3kXgTRY3Olr" role="1TKVEi">
+      <property role="IQ2ns" value="3836296803440870747" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="needs" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3kXgTRY3OkV" resolve="needs" />
+    </node>
+    <node concept="PrWs8" id="3kXgTRY3OiH" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="3kXgTRY3Ojw" role="1TKVEl">
+      <property role="IQ2nx" value="3836296803440870624" />
+      <property role="TrG5h" value="nickname" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3kXgTRY3OkV">
+    <property role="EcuMT" value="3836296803440870715" />
+    <property role="3GE5qa" value="jobs" />
+    <property role="TrG5h" value="needs" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3kXgTRY3OkX" role="1TKVEi">
+      <property role="IQ2ns" value="3836296803440870717" />
+      <property role="20kJfa" value="job" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3kXgTRY3hCi" resolve="job" />
+    </node>
   </node>
 </model>
 
