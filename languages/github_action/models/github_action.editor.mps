@@ -958,6 +958,20 @@
       </node>
       <node concept="3F0ifn" id="3RvjVZ$LBr6" role="3EZMnx">
         <property role="3F0ifm" value="]" />
+        <node concept="ljvvj" id="3RvjVZ$Mbuw" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3RvjVZ$MbuI" role="3EZMnx" />
+      <node concept="3F1sOY" id="3RvjVZ$Mbwg" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3RvjVZ$Mbua" resolve="branches" />
+        <node concept="ljvvj" id="3RvjVZ$Pca6" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3RvjVZ$Pcam" role="3EZMnx" />
+      <node concept="3F1sOY" id="3RvjVZ$PcaU" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3RvjVZ$PcaP" resolve="paths" />
       </node>
       <node concept="l2Vlx" id="3RvjVZ$LBr7" role="2iSdaV" />
     </node>
@@ -1036,6 +1050,65 @@
         <property role="3F0ifm" value="auto_merge_disabled" />
       </node>
       <node concept="l2Vlx" id="3RvjVZ$LFw7" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$MbsR">
+    <property role="3GE5qa" value="trigger" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$MbsM" resolve="pattern" />
+    <node concept="3EZMnI" id="3RvjVZ$MbsT" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$MbtL" role="3EZMnx">
+        <property role="3F0ifm" value="-" />
+      </node>
+      <node concept="3F0ifn" id="3RvjVZ$MbtT" role="3EZMnx">
+        <property role="3F0ifm" value="'" />
+      </node>
+      <node concept="3F0A7n" id="3RvjVZ$Mbt3" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3RvjVZ$MbsO" resolve="pattern" />
+      </node>
+      <node concept="3F0ifn" id="3RvjVZ$Mbu3" role="3EZMnx">
+        <property role="3F0ifm" value="'" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$MbsW" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$Mbtc">
+    <property role="3GE5qa" value="trigger.trigger_event.branches" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$MbnE" resolve="branches" />
+    <node concept="3EZMnI" id="3RvjVZ$Mbte" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$Mbtm" role="3EZMnx">
+        <property role="3F0ifm" value="branches" />
+        <node concept="ljvvj" id="3RvjVZ$Mbtq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3RvjVZ$OUvJ" role="3EZMnx" />
+      <node concept="3XFhqQ" id="3RvjVZ$P$bR" role="3EZMnx" />
+      <node concept="3F2HdR" id="3RvjVZ$Mbtx" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3RvjVZ$Mbt8" resolve="pattern" />
+        <node concept="2iRkQZ" id="3RvjVZ$Mbt$" role="2czzBx" />
+        <node concept="VPM3Z" id="3RvjVZ$Mbt_" role="3F10Kt" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$Mbth" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RvjVZ$P34i">
+    <property role="3GE5qa" value="trigger.trigger_event.paths" />
+    <ref role="1XX52x" to="3ixw:3RvjVZ$P34d" resolve="paths" />
+    <node concept="3EZMnI" id="3RvjVZ$P34u" role="2wV5jI">
+      <node concept="3F0ifn" id="3RvjVZ$P34v" role="3EZMnx">
+        <property role="3F0ifm" value="paths" />
+        <node concept="ljvvj" id="3RvjVZ$P34w" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3XFhqQ" id="3RvjVZ$P34x" role="3EZMnx" />
+      <node concept="3XFhqQ" id="3RvjVZ$PllE" role="3EZMnx" />
+      <node concept="3F2HdR" id="3RvjVZ$P34y" role="3EZMnx">
+        <ref role="1NtTu8" to="3ixw:3RvjVZ$P34f" resolve="pattern" />
+        <node concept="2iRkQZ" id="3RvjVZ$P34z" role="2czzBx" />
+        <node concept="VPM3Z" id="3RvjVZ$P34$" role="3F10Kt" />
+      </node>
+      <node concept="l2Vlx" id="3RvjVZ$P34_" role="2iSdaV" />
     </node>
   </node>
 </model>

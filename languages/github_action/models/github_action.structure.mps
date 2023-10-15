@@ -571,6 +571,18 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="bwhBsKYHU7" resolve="activity_types" />
     </node>
+    <node concept="1TJgyj" id="3RvjVZ$Mbua" role="1TKVEi">
+      <property role="IQ2ns" value="4458369841715787658" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="branches" />
+      <ref role="20lvS9" node="3RvjVZ$MbnE" resolve="branches" />
+    </node>
+    <node concept="1TJgyj" id="3RvjVZ$PcaP" role="1TKVEi">
+      <property role="IQ2ns" value="4458369841716576949" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="paths" />
+      <ref role="20lvS9" node="3RvjVZ$P34d" resolve="paths" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3RvjVZ$LFuk">
     <property role="EcuMT" value="4458369841715656596" />
@@ -627,6 +639,43 @@
     <property role="34LRSv" value="auto_merge_disabled" />
     <property role="R4oN_" value="auto_merge_disabled" />
     <ref role="1TJDcQ" node="bwhBsKYHU7" resolve="activity_types" />
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$MbnE">
+    <property role="EcuMT" value="4458369841715787242" />
+    <property role="3GE5qa" value="trigger.trigger_event.branches" />
+    <property role="TrG5h" value="branches" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3RvjVZ$Mbt8" role="1TKVEi">
+      <property role="IQ2ns" value="4458369841715787592" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="pattern" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3RvjVZ$MbsM" resolve="pattern" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$MbsM">
+    <property role="EcuMT" value="4458369841715787570" />
+    <property role="3GE5qa" value="trigger" />
+    <property role="TrG5h" value="pattern" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="3RvjVZ$MbsO" role="1TKVEl">
+      <property role="IQ2nx" value="4458369841715787572" />
+      <property role="TrG5h" value="pattern" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3RvjVZ$P34d">
+    <property role="EcuMT" value="4458369841716539661" />
+    <property role="3GE5qa" value="trigger.trigger_event.paths" />
+    <property role="TrG5h" value="paths" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3RvjVZ$P34f" role="1TKVEi">
+      <property role="IQ2ns" value="4458369841716539663" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="pattern" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3RvjVZ$MbsM" resolve="pattern" />
+    </node>
   </node>
 </model>
 
